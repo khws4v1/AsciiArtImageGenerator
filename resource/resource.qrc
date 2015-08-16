@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>monapo-20090423/monapo.ttf</file>
+        <file>icon/icon.png</file>
+    </qresource>
+</RCC>

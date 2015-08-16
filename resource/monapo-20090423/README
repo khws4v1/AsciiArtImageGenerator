@@ -1,0 +1,13 @@
+Monapo font
+
+Most Japanese websites are designed for "MS P Gothic" font.
+"Monapo" font is a combined font that uses ipagp.otf and mona.ttf.
+It has almost same width as MS P Gothic,
+so it can show Japanese Ascii Art properly.
+
+
+For developers:
+You can generate this font.
+(You need fontforge)
+$ cd orig-fonts
+$ ./import-ipagp.pe
