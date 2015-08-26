@@ -22,7 +22,7 @@ QString saveFileName(QString name)
         { "%{UNIX}", [&]() {return QString::number(QDateTime::currentMSecsSinceEpoch() / 1000);}}
     };
 
-    for (auto &&key : replaceMap.keys())
+    for (auto&& key : replaceMap.keys())
         name.replace(key, replaceMap[key]());
 
     return name;

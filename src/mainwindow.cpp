@@ -177,7 +177,7 @@ void MainWindow::on_saveButton_clicked()
         break;
     }
     if (!path.contains(QRegExp("^.+\\..+$")))
-            path.append(suffix);
+        path.append(suffix);
 
     if (generateImage().save(path,
                              imageFormat,
