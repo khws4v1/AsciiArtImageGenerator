@@ -26,3 +26,5 @@ RESOURCES += \
     resource/resource.qrc
 
 macx: ICON = resource/icon/icon.icns
+macx: QMAKE_MAC_SDK = macosx10.11
+macx-clang: QMAKE_CXXFLAGS += -Wno-inconsistent-missing-override
