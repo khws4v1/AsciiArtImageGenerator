@@ -184,7 +184,7 @@ void MainWindow::on_saveButton_clicked()
                              100)) {
         if (QMessageBox::information(this,
                                  tr("保存完了"),
-                                 tr("%1に保存しました。").arg(fileDialog.selectedFiles().first()),
+                                 tr("%1に保存しました。").arg(path),
                                  QMessageBox::Ok, QMessageBox::Open) == QMessageBox::Open)
             QDesktopServices::openUrl(QUrl::fromLocalFile(fileDialog.selectedFiles().first()));
     } else {
