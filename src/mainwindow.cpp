@@ -145,7 +145,6 @@ QImage MainWindow::generateImage() const
 void MainWindow::on_saveButton_clicked()
 {
     const QStringList filter{"image/png", "image/gif", "image/jpeg"};
-    QMimeDatabase     db;
     QFileDialog       fileDialog(this, tr("保存"), m_lastSelectedDirPath);
     const char*       imageFormat;
     QString           path;
